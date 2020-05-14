@@ -1,0 +1,19 @@
+body {
+  background-color: #d3d1d1;
+  text-align: center; }
+
+.nav {
+  background-color: #d3d1d1; }
+
+div h1 {
+  font-weight: bold; }
+
+.write-up {
+  font-family: sans-serif; }
+
+.write-up {
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px; }
+
+/*# sourceMappingURL=Sass.css.map */

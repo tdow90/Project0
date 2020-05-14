@@ -1,0 +1,26 @@
+$background: rgb(211, 209, 209);
+
+body{
+    background-color: $background;
+    text-align: center;
+}
+.nav{
+    background-color: $background;
+}
+
+div{
+    h1{
+        font-weight: bold;
+    }
+}
+
+%writeup{
+    font-family: sans-serif;
+}
+
+.write-up{
+    @extend %writeup;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}

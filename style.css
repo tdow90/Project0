@@ -1,0 +1,47 @@
+#list{
+    position: relative;
+    margin-top: 20px;
+}
+table{
+    margin-left:auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+.nav-link{
+    color: black;
+    font-weight: lighter;
+}
+:hover.nav-link{
+    text-decoration: underline;
+    color: black;
+}
+.pic-box{
+    background-color: white;
+    width: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 2%);
+
+}
+.profile-pic{
+    margin: 20px;
+    width: 1000px;
+    height: 500px
+}
+@media only screen and (max-width:600px){
+    .profile-pic{
+        margin: 20px;
+        width: 500px;
+        height: 250px
+    }
+}
+
+#Physicist{
+    margin-left: 200px;
+    margin-right: 200px; 
+}
+footer{
+ font-style: italic;
+}
